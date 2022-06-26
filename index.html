@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Contador</title>
+  </head>
+  <body>
+    <h1>Olá, mundo do Desenvolvimento Web com JS!</h1>
+    <h2>Este é o meu primeiro projeto Javascript.</h2>
+
+    <!--Projeto Desenvolvido com  professor-->
+    <p>Contador infinito</p>
+    <div id="counter">
+      <button onclick="infinityDecrement()">-</button>
+      <span id="currentNumber1">0</span>
+      <button onclick="infinityIncrement()">+</button>
+    </div>
+
+    <!-- Primeiro Desafio -->
+    <p>Desafio: Contador de 0 à 10</p>
+    <div id="counter">
+      <button id="subtrair" onclick="limitedDecrement()">-</button>
+      <span id="currentNumber2">0</span>
+      <button id="adicionar" onclick="limitedIncrement()">+</button>
+    </div>
+
+    <!-- Segundo Desafio -->
+    <p>
+      Desafio: Contador com negativos em
+      <span style="color: red">Vermelho</span>
+    </p>
+    <div id="counter">
+      <button onclick="infinityDecrementV2()">-</button>
+      <span id="currentNumber3">0</span>
+      <button onclick="infinityIncrementV2()">+</button>
+    </div>
+
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
